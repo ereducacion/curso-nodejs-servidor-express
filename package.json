@@ -4,7 +4,8 @@
   "description": "Para el curso de node js, practica55",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
   }
 }
